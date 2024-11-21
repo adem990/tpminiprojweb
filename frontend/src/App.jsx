@@ -7,8 +7,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<EventPage />} />
-        <Route path="/EventPage2" element={<EventPage2 />} />
+        <Route path="/" element={<EventPage2 />} />
+        {/*<Route path="/EventPage2" element={<EventPage2 />} />*/}
         {/* Add more routes here if you have additional pages */}
       </Routes>
     </Router>

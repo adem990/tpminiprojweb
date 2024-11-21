@@ -1,16 +1,13 @@
 import React from 'react';
-import Hero from './Hero';
-
-
-
-import Header from './Header';
+import { Link } from 'react-router-dom';
+import Login from './Login';
 
 
 const EventPage = () => {
   return (
     <div className="flex overflow-hidden flex-col bg-white">
-      <Hero />
-      <Header />
+      <Login />
+      
       
     </div>
   );
